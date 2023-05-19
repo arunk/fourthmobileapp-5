@@ -1,4 +1,3 @@
-import React from "react";
 import { Text, View, StyleSheet, Image, Pressable } from "react-native";
 
 const Alert = () => {
@@ -109,9 +108,5 @@ const buttonStyles = StyleSheet.create({
     color: "#fff",
     fontSize: 16,
     fontWeight: "bold"
-  },
-  childrenContainer: {
-    justifyContent: "center",
-    alignItems: "center"
   }
 });
